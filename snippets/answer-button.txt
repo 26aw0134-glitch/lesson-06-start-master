@@ -1,0 +1,7 @@
+      <button
+        className="next"
+        onClick={handleAnswerNext}
+        disabled={!answers[question.id]}
+      >
+        回答して進む
+      </button>
